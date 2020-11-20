@@ -1,0 +1,28 @@
+.signin-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  background-color: #e9e6e6;
+}
+
+.form__name-input, .form__password-input {
+  padding: 0.5rem;
+  border: 2px solid grey;
+  border-radius: 0.3rem;
+  margin: 10px 0;
+}
+
+.form__submit-button {
+  color: white;
+  background: green;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 0.7rem;
+}
+/*# sourceMappingURL=main.css.map */

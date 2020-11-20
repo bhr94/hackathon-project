@@ -1,0 +1,27 @@
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(233, 230, 230);
+}
+
+.form__name-input {
+    padding: 0.5rem;
+    border: 2px solid grey;
+    border-radius: 0.3rem;
+    margin: 10px 0;
+}
+
+
+.form__password-input{
+    @extend .form__name-input;
+}
+
+.form__submit-button {
+    color: white;
+    background: green;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.7rem;
+}

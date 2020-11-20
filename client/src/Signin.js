@@ -2,39 +2,44 @@ import React from "react";
 
 class Signin extends React.Component {
   state = {
-      email:"",
-      password:""
+    email: "",
+    password: "",
   };
 
-  updateEmail = () => {};
-  updatePassword =() =>{}
+  updateEmail = (e) => {
+    this.setState({ email: e.target.value });
+  };
+  updatePassword = (e) => {
+    this.setState({ password: e.target.value });
+  };
   handleClick = () => {
     alert("hello");
   };
 
   render() {
     return (
-      <form>
+      <form className="signin-form">
         <h2>SIGN IN</h2>
-        <div>
-          Email:{" "}
-          <input
-            type="text"
-            name="email"
-            onChange={this.updateEmail}
-            value={this.state.email}
-          />
-        </div>
-        <div>
-          Password:{" "}
-          <input
-            type="password"
-            name="password"
-            onChange={this.updatePassword}
-            value={this.state.password}
-          />
-        </div>
-        <button type="button" onClick={this.handleClick}>
+
+        <label>Email</label>
+        <input
+          type="text"
+          name="email"
+          onChange={this.updateEmail}
+          value={this.state.email}
+          className ="form__name-input"
+        />
+
+        <label>Password</label>
+        <input
+          type="password"
+          name="password"
+          onChange={this.updatePassword}
+          value={this.state.password}
+          className = "form__password-input"
+        />
+
+        <button type="button" onClick={this.handleClick} className = "form__submit-button">
           Sign In
         </button>
       </form>
