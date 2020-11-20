@@ -1,0 +1,54 @@
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #ecebeb;
+}
+
+.form__name-input {
+    padding: 0.8rem;
+    border: 2px solid #E1E1E1;
+    border-radius: 0.3rem;
+    margin: 10px 0;
+    outline: none;
+    font-size: 1.1rem;
+
+    &:focus {
+        border: 2px solid #323232;
+    }
+
+}
+
+
+.form__password-input{
+    @extend .form__name-input;
+}
+
+.form__submit-button {
+    color: white;
+    background: #323232;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        background-color: black;
+    }
+}
+
+
+.signin-form__title {
+    align-self: center;
+}
+
+.form__label-password {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.form__label-email {
+    @extend .form__label-password
+}
