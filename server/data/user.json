@@ -1,99 +1,112 @@
-[ 
+[
   {
     "id": 1,
     "name": "Leanne Graham",
     "username": "Bret",
     "email": "Sincere@april.biz",
-    "password":"123456",
-    "address": {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo": {
-    "lat": "-37.3159",
-    "lng": "81.1496"
-    }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
+    "password": "123456",
+    "img": "https://images.unsplash.com/photo-1603662725720-309fa4e6795d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE3ODM0M30",
+    "comments": [
+      {
+        "name": "id labore ex et quam laborum",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+      },
+      {
+        "name": "quo vero reiciendis velit similique earum",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+      },
+      {
+        "name": "odio adipisci rerum aut animi",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+      }
+    ],
     "company": {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
     }
-    },
-    {
+  },
+  {
     "id": 2,
     "name": "Ervin Howell",
     "username": "Antonette",
     "email": "Shanna@melissa.tv",
-    "password":"123456",
-    "address": {
-    "street": "Victor Plains",
-    "suite": "Suite 879",
-    "city": "Wisokyburgh",
-    "zipcode": "90566-7771",
-    "geo": {
-    "lat": "-43.9509",
-    "lng": "-34.4618"
-    }
-    },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
+    "password": "123456",
+    "img": "https://images.unsplash.com/photo-1604918141033-3bb423ce1416?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE3ODM0M30",
+    "comments": [
+      {
+        "name": "id labore ex et quam laborum",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+      },
+      {
+        "name": "quo vero reiciendis velit similique earum",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+      },
+      {
+        "name": "odio adipisci rerum aut animi",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+      }
+    ],
     "company": {
-    "name": "Deckow-Crist",
-    "catchPhrase": "Proactive didactic contingency",
-    "bs": "synergize scalable supply-chains"
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
     }
-    },
-    {
+  },
+  {
     "id": 3,
     "name": "Clementine Bauch",
     "username": "Samantha",
     "email": "Nathan@yesenia.net",
-    "password":"123456",
-    "address": {
-    "street": "Douglas Extension",
-    "suite": "Suite 847",
-    "city": "McKenziehaven",
-    "zipcode": "59590-4157",
-    "geo": {
-    "lat": "-68.6102",
-    "lng": "-47.0653"
-    }
-    },
+    "password": "123456",
+    "img": "https://images.unsplash.com/photo-1603794717184-0e17c482829e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE3ODM0M30",
+    "comments": [
+      {
+        "name": "id labore ex et quam laborum",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+      },
+      {
+        "name": "quo vero reiciendis velit similique earum",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+      },
+      {
+        "name": "odio adipisci rerum aut animi",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+      }
+    ],
     "phone": "1-463-123-4447",
     "website": "ramiro.info",
     "company": {
-    "name": "Romaguera-Jacobson",
-    "catchPhrase": "Face to face bifurcated interface",
-    "bs": "e-enable strategic applications"
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
     }
-    },
-    {
+  },
+  {
     "id": 4,
     "name": "Patricia Lebsack",
     "username": "Karianne",
     "email": "Julianne.OConner@kory.org",
-    "password":"123456",
-    "address": {
-    "street": "Hoeger Mall",
-    "suite": "Apt. 692",
-    "city": "South Elvis",
-    "zipcode": "53919-4257",
-    "geo": {
-    "lat": "29.4572",
-    "lng": "-164.2990"
-    }
-    },
-    "phone": "493-170-9623 x156",
-    "website": "kale.biz",
+    "password": "123456",
+    "img": "https://images.unsplash.com/photo-1604073895403-fd2fc0eaf9fd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE3ODM0M30",
+    "comments": [
+      {
+        "name": "id labore ex et quam laborum",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+      },
+      {
+        "name": "quo vero reiciendis velit similique earum",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+      },
+      {
+        "name": "odio adipisci rerum aut animi",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+      }
+    ],
     "company": {
-    "name": "Robel-Corkery",
-    "catchPhrase": "Multi-tiered zero tolerance productivity",
-    "bs": "transition cutting-edge web services"
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
     }
-    }
+  }
 ]
-
