@@ -1,9 +1,12 @@
 import React from "react";
+import axios from "axios";
+const main_url = "http://localhost:5000";
 
 class Signin extends React.Component {
   state = {
     email: "",
     password: "",
+    signedIn:false
   };
 
   updateEmail = (e) => {
@@ -13,7 +16,19 @@ class Signin extends React.Component {
     this.setState({ password: e.target.value });
   };
   handleClick = () => {
-    alert("hello");
+     if(this.state.emain && this.state.password) {
+         axios.post(main_url + "/signin")
+         .then(response =>{
+             console.log(response);
+             this.setState({signedIn:true})
+         })
+         .catch(error=>{
+             console.log(error)
+         })
+     }
+     else {
+         alert("please fill all the required fields")
+     }
   };
 
   render() {
