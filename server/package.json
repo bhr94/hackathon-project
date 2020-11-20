@@ -9,19 +9,11 @@
   },
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
   "devDependencies": {
     "nodemon": "^2.0.6"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
-=======
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "install": "^0.13.0",
-    "nodemon": "^2.0.6"
->>>>>>> 1ba013d0568d41dadd401e1f8eeabff23f8b2854
   }
 }
