@@ -1,5 +1,5 @@
 import Comment from "./CommentItem.js";
-function CommentList(){
+function CommentList({comments}){
     return(
         <ul className="mainprofile__comments--list">
             {comments && comments
