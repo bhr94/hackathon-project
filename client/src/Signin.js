@@ -21,7 +21,7 @@ class Signin extends React.Component {
       <form className="signin-form">
         <h2 className="signin-form__title">SIGN IN</h2>
 
-        <label className="form__label-email">Email</label>
+        <label className="form__label-email">Email:</label>
         <input
           type="text"
           name="email"
@@ -31,7 +31,7 @@ class Signin extends React.Component {
           placeholder="Enter your email"
         />
 
-        <label className="form__label-password">Password</label>
+        <label className="form__label-password">Password:</label>
         <input
           type="password"
           name="password"
