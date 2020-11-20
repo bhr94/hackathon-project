@@ -7,7 +7,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 300px;
-  background-color: #E1E1E1;
+  background-color: #ecebeb;
 }
 
 .form__name-input, .form__password-input {
@@ -16,6 +16,7 @@
   border-radius: 0.3rem;
   margin: 10px 0;
   outline: none;
+  font-size: 1.1rem;
 }
 
 .form__name-input:focus, .form__password-input:focus {
@@ -41,5 +42,10 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.form__label-password, .form__label-email {
+  font-size: 1.3rem;
+  font-weight: bolder;
 }
 /*# sourceMappingURL=main.css.map */
