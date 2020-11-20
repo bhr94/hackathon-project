@@ -12,10 +12,14 @@
 
 .form__name-input, .form__password-input {
   padding: 0.8rem;
-  border: 2px solid grey;
+  border: 2px solid #E1E1E1;
   border-radius: 0.3rem;
   margin: 10px 0;
   outline: none;
+}
+
+.form__name-input:focus, .form__password-input:focus {
+  border: 2px solid #323232;
 }
 
 .form__submit-button {
