@@ -28,6 +28,7 @@ class Signin extends React.Component {
           onChange={this.updateEmail}
           value={this.state.email}
           className ="form__name-input"
+          placeholder ="Enter your email"
         />
 
         <label>Password</label>
@@ -37,6 +38,7 @@ class Signin extends React.Component {
           onChange={this.updatePassword}
           value={this.state.password}
           className = "form__password-input"
+          placeholder ="Enter your password"
         />
 
         <button type="button" onClick={this.handleClick} className = "form__submit-button">
