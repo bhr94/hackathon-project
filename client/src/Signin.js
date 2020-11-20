@@ -19,7 +19,7 @@ class Signin extends React.Component {
   render() {
     return (
       <form className="signin-form">
-        <h2>SIGN IN</h2>
+        <h2 className = "signin-form__title">SIGN IN</h2>
 
         <label>Email</label>
         <input

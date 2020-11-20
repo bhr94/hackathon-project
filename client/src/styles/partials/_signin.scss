@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
-    background-color: rgb(233, 230, 230);
+    background-color: #E1E1E1;
 }
 
 .form__name-input {
@@ -10,6 +10,8 @@
     border: 2px solid grey;
     border-radius: 0.3rem;
     margin: 10px 0;
+    outline: none;
+
 }
 
 
@@ -19,9 +21,20 @@
 
 .form__submit-button {
     color: white;
-    background: green;
+    background: #323232;
     font-size: 1.3rem;
     border-radius: 0.3rem;
     border: none;
     padding: 0.7rem;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        background-color: black;
+    }
+}
+
+
+.signin-form__title {
+    align-self: center;
 }

@@ -8,7 +8,7 @@ import "./styles/main.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Signin />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
