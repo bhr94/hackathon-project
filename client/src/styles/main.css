@@ -8,6 +8,7 @@
           flex-direction: column;
   width: 300px;
   background-color: #ecebeb;
+  margin-bottom: 5rem;
 }
 
 .form__name-input, .form__password-input {
@@ -47,5 +48,19 @@
 .form__label-password, .form__label-email {
   font-size: 1.3rem;
   font-weight: bolder;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
