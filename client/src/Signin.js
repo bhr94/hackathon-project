@@ -25,6 +25,8 @@ class Signin extends React.Component {
          .catch(error=>{
              console.log(error)
          })
+         this.setState({email:""});
+         this.setState({password:""})
      }
      else {
          alert("please fill all the required fields")
