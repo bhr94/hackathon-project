@@ -4,7 +4,7 @@ import Signin from "./components/Signin";
 
 function App() {
   return (
-    <div>
+    <div className = "container">
       <Signin/>
     </div>
   );
