@@ -3,18 +3,11 @@ const express = require("express");
 const cors = require("cors");
 const { default: Signin } = require("../client/src/Signin");
 const app = express();
-const userData = [
-  {
-    name: " ",
-    description: " ",
-    email: " ",
-    password: " ",
-    comments: []
-  },
-];
+
+app.use(express.json());
 app.use(cors());
 
-app.use()
+
 
 app.get("/", function (req, res) {
   res.status(200).send("Welcome to my server");
@@ -25,7 +18,7 @@ app.get("/users/:id", function (req, res) {
 });
 
 app.post("/*", function (req, res) {
-    if (!req.body.userName || !req.body.password || !req.body.) {
+    if (!req.body.userName || !req.body.password || !req.body.description) {
     res.status(503).send("server requires something i dont have");
 });
 res.json(Signin(req.body));
