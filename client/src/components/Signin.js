@@ -20,11 +20,18 @@ class Signin extends React.Component {
     this.setState({ password: e.target.value });
   };
   handleClick = () => {
+    const body = {
+         email: this.state.email,
+         password: this.state.password,
+    };
      if(this.state.email && this.state.password) {
-         axios.post(main_url + "/signin")
+         axios.post(main_url + "/signin", body)
          .then(response =>{
              console.log(response);
-             this.setState({signedIn:true})
+             this.setState({
+               signedIn:true,
+               data: response.data[0]
+            })
          })
          .catch(error=>{
              console.log(error)
